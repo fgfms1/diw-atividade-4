@@ -47,3 +47,56 @@ h2 {
     margin-top: 30px;
     text-align: center;
 }
+.destaque {
+    display: flex;
+    gap: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.capa-destaque {
+    position: relative;
+}
+
+.capa-destaque img {
+    display: block;
+    border: 2px solid black;
+}
+
+.etiqueta {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+}
+
+.destaque .info {
+    flex: 1;
+}
+
+.destaque .info h3 {
+    margin-top: 0;
+}
+
+.destaque .info .pagina {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.barra {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 18px;
+    overflow: hidden;
+}
+
+.barra .preenchido {
+    background-color: #555555;
+    height: 100%;
+    width: 36%;
+}
