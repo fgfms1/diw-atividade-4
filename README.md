@@ -1,24 +1,15 @@
 # Trabalho Prático - Semana 04
 
-Dessa vez, vamos escolher uma proposta de projeto para trabalhar.
-
-Nessa atividade, você deverá montar a página inicial do projeto escolhido, a organização do HTML aplicando semântica correta e uso aprimorado do CSS. Leia o enunciado completo no Canvas para mais detalhes.
-
-**IMPORTANTE:** Você deve trabalhar e alterar apenas arquivos dentro da pasta **`public`**. Deixe todos os demais arquivos e pastas desse repositório inalterados. **PRESTE MUITA ATENÇÃO NISSO.**
-
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Francisco Guerra Fraga Moreira
+- Matricula: 917298
+- Proposta de projeto escolhida: Proposta 1 - Pessoas e Produções 
+- Breve descrição sobre seu projeto: Projeto de aplicação web para registro pessoal de leitura, no qual o usuário cataloga os livros que já leu, está lendo ou pretende ler. A entidade principal é o leitor e a entidade secundária são os livros, cada um com título, autor e status de leitura. A home-page reúne o livro em destaque do momento, com progresso de leitura, e uma grade com todos os livros registrados. 
 
 
 ## Print do(s) wireframe(s) criado
-> Sugestão, use o Excalidraw para isso. Utilize esse [template básico](https://excalidraw.com/#json=LU-8hwcQEwzk11FwO8Opo,qPU9K6cNUEzlXzwOuKMIlQ) para você começar. 
-
-<<  COLOQUE A IMAGEM AQUI >>
-
+[!Wireframe] (/home/fgfms1/diw-atividade-4/prototype.png)
 
 
 ## Print da home-page criada

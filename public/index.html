@@ -1,12 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minha Estante</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- Barra de busca no topo da pagina -->
+    <div class="busca">
+        <input type="text" placeholder="Buscar livro...">
+        <span class="lupa">&#128269;</span>
+    </div>
+
+    <!-- Cabecalho com o nome do site e o menu -->
+    <header>
+        <h1 class="logo">Minha Estante</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#meus-livros">Meus livros</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Secao do livro que estou lendo agora -->
+        <section>
+            <h2>Lendo agora</h2>
+            <article class="destaque">
+                <div class="capa">[capa]</div>
+                <div class="info">
+                    <h3>Título: O Nome do Vento</h3>
+                    <p>Sinopse: um jovem talentoso conta a própria história, da
+                       infância numa trupe de artistas até se tornar uma lenda.</p>
+                    <p class="pagina">Página 240 de 662</p>
+                    <!-- A barra de fora e o fundo, a de dentro mostra o progresso -->
+                    <div class="barra">
+                        <div class="preenchido"></div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Secao com os livros ja lidos -->
+        <section id="meus-livros">
+            <h2>Livros lidos</h2>
+            <div class="lista">
+
+                <article class="card">
+                    <div class="topo">
+                        <div class="capa">[capa]</div>
+                        <div>
+                            <h3>Título: Torto Arado</h3>
+                            <p>Sua avaliação: &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        </div>
+                    </div>
+                    <p class="sinopse">Sinopse: duas irmãs partilham um segredo de
+                       infância enquanto crescem no trabalho da terra.</p>
+                </article>
+
+                <article class="card">
+                    <div class="topo">
+                        <div class="capa">[capa]</div>
+                        <div>
+                            <h3>Título: 1984</h3>
+                            <p>Sua avaliação: &#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                        </div>
+                    </div>
+                    <p class="sinopse">Sinopse: num regime de vigilância total, um homem
+                       tenta preservar a própria liberdade de pensar.</p>
+                </article>
+
+                <article class="card">
+                    <div class="topo">
+                        <div class="capa">[capa]</div>
+                        <div>
+                            <h3>Título: A Hora da Estrela</h3>
+                            <p>Sua avaliação: &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        </div>
+                    </div>
+                    <p class="sinopse">Sinopse: a vida simples de uma moça nordestina
+                       narrada com delicadeza e melancolia.</p>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="barra-footer"></div>
+        <p>Minha Estante - projeto de registro de leitura</p>
+    </footer>
+
 </body>
 </html>
