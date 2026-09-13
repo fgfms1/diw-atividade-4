@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <form class="busca">
+        <input type="text" placeholder="Buscar livro...">
+        <button type="submit" class="botao-busca">Buscar</button>
+    </form>
 
     <header class="cabecalho">
         <h1 class="logo">Minha Estante</h1>
@@ -83,6 +87,13 @@
 
         <section class="cadastro" id="cadastro">
             <h2>Cadastrar um livro</h2>
+            <form class="form-livro">
+                <label for="titulo">Título</label>
+                <input type="text" id="titulo" name="titulo">
+                <label for="autor">Autor</label>
+                <input type="text" id="autor" name="autor">
+                <button type="submit">Adicionar</button>
+            </form>
         </section>
     </main>
 
