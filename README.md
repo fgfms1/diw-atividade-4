@@ -9,9 +9,9 @@
 
 
 ## Print do(s) wireframe(s) criado
-[!Wireframe] (/home/fgfms1/diw-atividade-4/prototype.png)
+[!Wireframe](/home/fgfms1/diw-atividade-4/prototype.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+[!Webpage](/home/fgfms1/diw-atividade-4/webpage.png)
