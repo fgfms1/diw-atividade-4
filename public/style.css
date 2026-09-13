@@ -100,3 +100,30 @@ h2 {
     height: 100%;
     width: 36%;
 }
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    width: 220px;
+}
+
+.card .topo {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.card .topo .capa {
+    border: 2px solid black;
+}
+
+.card .topo h3 {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
